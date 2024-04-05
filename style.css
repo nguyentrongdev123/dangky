@@ -1,0 +1,86 @@
+.header{
+    height: 100px;
+    position: fixed;
+    background-image: url(https://img.uhdpaper.com/wallpaper/sunset-river-forest-scenery-digital-art-201@3@a-thumb.jpg?dl);
+    top:0px;
+    width: 100%;
+    left: 0px;
+    background-repeat:no-repeat ;
+    background-size:100% 100% ;
+}
+h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.block{
+    width: 1520px;
+    height: 730px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/285/172/9/sunset-8k-forest-4k-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-top: 100px;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+}
+.box
+{
+    width: 500px;
+    height: 550px;
+    background-color:rgba(0,0, 0, 0.4);
+    margin: auto;
+    border-radius: 7px ;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.formgroup1,.formgroup2,.formgroup3,.formgroup4{
+    display:flex ;
+   flex-direction: column;
+   margin-top: -5px;
+   margin-left: 95px;
+}
+.namedk,.emaildk,.passworddk,.repassworddk{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.name__formdk,.email__formdk,.password__formdk,.repassword__formdk{
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.formgroup1{
+    margin-top: 60px;
+}
+.dk__items{
+    width: 130px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/285/172/9/sunset-8k-forest-4k-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    color: aqua;
+    margin-top: 5px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+.dk__items:hover{
+    transform:scale(1.2);
+}
+.bug1,.bug2,.bug3,.bug4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.dat{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://scontent.fhan5-7.fna.fbcdn.net/v/t39.30808-1/434675355_1278966910159266_9025190553271448055_n.jpg?stp=dst-jpg_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjnRmrZ5bG7qLz41DPqrPeZlpEeNZE4sVmWkR41kTixdv_wy6mN6ZwTJLX440IrNK54JAJv80W5iZAB9znZuTc&_nc_ohc=1skPAW4ss10Ab5XEJfj&_nc_ht=scontent.fhan5-7.fna&oh=00_AfDzTQ2IyFiCO4eyfWYJwIwTZab3LRUXPgtkzYc3G9SMJw&oe=6615BC03);
+    background-size:100% 100% ;
+    border-radius: 50%;
+}
+
